@@ -12,17 +12,23 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
+  background-color: #fff;
 }
 
 .excel {
   position: relative;
+  color: #888;
+  height: 100%;
+  min-width: 100%;
+  font-size: .8rem;
 }
 
 
 @import "variables";
 @import "mixins";
 
-@import "./modules/formula.scss";
 @import "./modules/header.scss";
 @import "./modules/toolbar.scss";
+@import "./modules/formula.scss";
 @import "./modules/table.scss";
+@import "./dashboard.scss";

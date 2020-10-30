@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
 
-  & .input {
+   .input {
     margin: 0;
     padding: 2px 7px;
     min-width: 1px;
@@ -21,11 +21,11 @@
     line-height: 22px;
     outline: none;
 
-    &:hover {
+    .hover {
       border: 1px solid $border-color;
     }
 
-    &:focus {
+    .focus {
       border: 2px solid #1a73e8;
     }
   }
