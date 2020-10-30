@@ -1,2 +1,4 @@
 [1029/140113.088:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1029/195942.513:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1030/124248.010:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1030/171127.273:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
