@@ -2,6 +2,8 @@ import {ExcelComponents} from '@core/ExcelComponents';
 
 export class Header extends ExcelComponents {
     static className = 'excel__header'
+
+
     toHTML() {
         return `<div class="excel__header">
 
