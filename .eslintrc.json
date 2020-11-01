@@ -15,7 +15,8 @@
             4, 
             {"SwitchCase": 1}
         ],
-        "eol-last":"off"
+        "eol-last":"off",
+        "operator-linebreak":"off"
     },
     "extends": [
         "eslint:recommended",
