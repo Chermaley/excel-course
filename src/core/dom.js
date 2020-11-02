@@ -33,6 +33,32 @@ class Dom {
     off(eventType, callback) {
         this.$el.removeEventListener(eventType, callback);
     }
+    closest(selector) {
+        return $(this.$el.closest(selector));
+    }
+    getCords() {
+        return this.$el.getBoundingClientRect();
+    }
+    get data() {
+        return this.$el.dataset;
+    }
+    findAll(selector) {
+        return this.$el.querySelectorAll(selector);
+    }
+    css(styles = {}) {
+        Object.keys(styles).forEach(key => {
+            this.$el.style[key] = styles[key];
+        });
+    }
+    remove() {
+        this.$el.remove();
+    }
+    addClass(className) {
+        return this.$el.classList.add(className);
+    }
+    removeClass(className) {
+        return this.$el.classList.remove(className);
+    }
 }
 
 $('div').html.apply('<h1>Test</h1>');
