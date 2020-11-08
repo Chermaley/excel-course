@@ -15,3 +15,8 @@
 [1104/212931.865:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
 [1104/212931.893:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Chermarey\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\40d28b6a-5183-4a67-9715-6d0a91549d7b: Системе не удается найти указанный путь. (0x3)
 [1104/212931.894:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Chermarey\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\6d295f4d-414e-4465-a839-0b34612d5ac1: Системе не удается найти указанный путь. (0x3)
+[1105/140734.410:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1105/160456.912:ERROR:file_io.cc(135)] WriteFile: Идет закрытие канала. (0xE8)
+[1105/184343.074:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1106/184343.099:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1107/184343.100:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
