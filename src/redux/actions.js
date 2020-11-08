@@ -2,7 +2,8 @@ import {CHANGE_TEXT,
     CHANGE_STYLES,
     TABLE_RESIZE,
     APPLY_STYLE,
-    CHANGE_HEADER
+    CHANGE_HEADER,
+    LAST_DATE
 } from './types';
 
 // action creater
@@ -37,5 +38,11 @@ export function changeHeader(data) {
     return {
         type: CHANGE_HEADER,
         data
+    };
+}
+
+export function lastDate() {
+    return {
+        type: LAST_DATE
     };
 }
