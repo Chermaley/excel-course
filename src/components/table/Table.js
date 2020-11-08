@@ -47,6 +47,9 @@ export class Table extends ExcelComponents {
                 ids: this.selection.selectedIds
             }));
         });
+        // let lastData = new Date();
+        // lastData = lastData.toString().slice(4, 24);
+        // this.$dispatch(actions.lastDate(lastData));
     }
 
     selectCell($cell) {

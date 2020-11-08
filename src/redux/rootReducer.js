@@ -3,7 +3,8 @@ import {CHANGE_TEXT,
     CHANGE_STYLES,
     TABLE_RESIZE,
     APPLY_STYLE,
-    CHANGE_HEADER
+    CHANGE_HEADER,
+    LAST_DATE
 } from './types';
 
 /* eslint-disable no-case-declarations */
@@ -36,6 +37,8 @@ export function rootReducer(state, action) {
             };
         case CHANGE_HEADER:
             return {...state, title: action.data.value};
+        case LAST_DATE:
+            return {...state, lastDate: new Date().toJSON()};
         default: return state;
     }
 }

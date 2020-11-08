@@ -1,9 +1,9 @@
 import {$} from '@core/dom';
 import Emitter from '@core/Emitter';
 import {StoreSub} from '@core/StoreSub';
+import * as actions from '@/redux/actions';
 export class Excel {
-    constructor(selector, options) {
-        this.$el = $(selector);
+    constructor(options) {
         this.components = options.components || [];
         this.emitter = new Emitter;
         this.store = options.store;
@@ -29,14 +29,14 @@ export class Excel {
         return $root;
     }
 
-    render() {
-        this.$el.append(this.getRoot());
+    init() {
+        this.store.dispatch(actions.lastDate());
         this.subscriber.subscribeComponents(this.components);
         this.components.forEach(component => component.init());
     }
 
     destroy() {
         this.subscriber.unsubscribeFromStore();
-        this.components.forEach(component => component.destroy());
+        // this.components.forEach(component => component.destroy());
     }
 }
